@@ -8,8 +8,8 @@ const bodyParser = require('body-parser');
 
 
 const api = require('./modules/api').api;
-const root = __dirname.replace("urban-art-server","urban-art-ionic")+"/www" // MAC
-//const root = __dirname.replace("urban-art-server","urban-art-ionic")+"\www" // windows
+//const root = __dirname.replace("urban-art-server","urban-art-ionic")+"/www" // MAC
+const root = __dirname.replace("miiart-server","miiart-mobile")+"\www" // windows
 
 
 const log = (req,res,next) => {
