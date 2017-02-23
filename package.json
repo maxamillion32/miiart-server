@@ -1,0 +1,22 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.2",
+    "nodemon": "^1.11.0"
+  },
+  "name": "miiart",
+  "version": "0.1.0",
+  "description": "Street Art in Miami Projet Mobile",
+  "engines": {
+    "node": "^6.9.1"
+  }
+}
