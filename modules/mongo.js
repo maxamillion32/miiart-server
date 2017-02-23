@@ -42,9 +42,9 @@ const Artist = mongoose.model('artist', artistSchema);
 const User = mongoose.model('user', userSchema);
 
 // mongoose.connect('mongodb://localhost/urban', (err) => {
-/*mongoose.connect('mongodb://test:test@ds055782.mlab.com:55782/urban', (err) => {
+mongoose.connect('mongodb://maxamillion32:Sean385473@ds145299.mlab.com:45299/miiart', (err) => {
 	if (err) {return console.error("Error connecting to MongoDB!");}
-});*/
+});
 
 module.exports = {
 	Work, Category, Artist, User
